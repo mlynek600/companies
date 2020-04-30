@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Companies</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1>COMPANIES</h1>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Search for data..." onkeyup="searchData()" id="search-input">
+    </div>
+    <div class="table-div">
+      <div class="spinner">
+        <img src="img/spinner.gif" alt="">
+      </div>
+      <table class='table'>
+        <thead>
+          <tr>
+            <th class='id-header'>ID</th>
+            <th class='name-header'>Name</th>
+            <th class='city-header'>City</th>
+            <th class='total-header'>Total income</th>
+            <th class='average-header'>Average income</th>
+            <th class='month-header'>Last Month Income</th>
+          </tr>
+        </thead>
+        <tbody class=tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>

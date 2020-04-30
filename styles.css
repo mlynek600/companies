@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 6px;
+}
+
+table {
+  visibility: hidden;
+  width: 80%;
+  font-family: serif;
+  margin: 0 auto 2rem auto;
+}
+
+th {
+  cursor: pointer;
+  text-align: left;
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+
+th:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.search {
+  margin-bottom: 1rem;
+  visibility: hidden;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  font-family: inherit;
+  text-align: center;
+}
+
+.spinner {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .heading {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .search {
+    text-align: left;
+    margin-left: 15px;
+  }
+}
