@@ -47,7 +47,11 @@ th:hover {
   text-align: center;
 }
 
-@media (max-width: 500px) {
+.container-table {
+  overflow-x:auto
+}
+
+@media (max-width: 480px) {
   .heading {
     font-size: 1.3rem;
     text-align: left;

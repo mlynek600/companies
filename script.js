@@ -56,8 +56,6 @@ fetch(companiesURL)
       });
   });
 
-
-
 function calculateIncomes(company) {
   let totalIncome = 0;
   let averageIncome = 0;
